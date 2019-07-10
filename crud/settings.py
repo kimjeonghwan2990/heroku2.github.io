@@ -24,7 +24,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', '9(&s9*8(imnu@(ulo&w5916e)5b-^i
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = bool( os.environ.get('DJANGO_DEBUG', True) )#True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['pacific-escarpment-81602.herokuapp.com']
 
 
 # Application definition
